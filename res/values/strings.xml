@@ -9,5 +9,7 @@
     <string name="tenPercent">10%</string>
     <string name="fifteenPercent">15%</string>
     <string name="twentyPercent">20%</string>
+    <string name="tip">Tip</string>
+    <string name="total">Total</string>
 
 </resources>
