@@ -17,7 +17,8 @@
             android:id="@+id/billTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/billTotal" />
+            android:text="@string/billTotal"
+            android:textColor="#000" />
         
         <EditText
             android:id="@+id/billEditView"
@@ -37,19 +38,26 @@
             android:id="@+id/tenTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tenPercent" />
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:text="@string/tenPercent"
+            android:textColor="#000" />
 
         <TextView
             android:id="@+id/fifteenTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fifteenPercent" />
+            android:gravity="center"
+            android:text="@string/fifteenPercent"
+            android:textColor="#000" />
 
         <TextView
             android:id="@+id/twentyTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/twentyPercent"/>
+            android:gravity="center"
+            android:text="@string/twentyPercent"
+            android:textColor="#000" />
 
     </TableRow>
 
@@ -58,26 +66,34 @@
         android:id="@+id/tableRow2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
         <TextView
             android:id="@+id/tipTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tip" />
+            android:text="@string/tip"
+            android:textColor="#000" />
+
         <EditText
             android:id="@+id/tipTenEditView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/zeroDotZero"/>
+            android:layout_gravity="center"
+            android:text="@string/zeroDotZero" />
+
         <EditText
             android:id="@+id/tipFifteenEditView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/zeroDotZero"/>
+            android:gravity="center"
+            android:text="@string/zeroDotZero" />
+
         <EditText
             android:id="@+id/tipTwentyEditView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/zeroDotZero"/>
+            android:gravity="center"
+            android:text="@string/zeroDotZero" />
         
     </TableRow>
     
@@ -86,26 +102,34 @@
         android:id="@+id/tableRow3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
          <TextView
-            android:id="@+id/totalTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/total" />
+             android:id="@+id/totalTextView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/total"
+             android:textColor="#000" />
+
         <EditText
             android:id="@+id/totalTenEditView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/zeroDotZero"/>
+            android:layout_gravity="center"
+            android:text="@string/zeroDotZero" />
+
         <EditText
             android:id="@+id/totalFifteenEditView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/zeroDotZero"/>
+            android:gravity="center"
+            android:text="@string/zeroDotZero" />
+
         <EditText
             android:id="@+id/totalTwentyEditView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/zeroDotZero"/>
+            android:gravity="center"
+            android:text="@string/zeroDotZero" />
         
     </TableRow>
 
@@ -114,6 +138,26 @@
         android:id="@+id/tableRow4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/cutstomTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/custom"
+            android:textColor="#000" />
+
+        <SeekBar
+            android:id="@+id/customSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/customTipTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/customPercent"
+            android:textColor="#000" />
+
     </TableRow>
 
     <!-- Row 5 -->
@@ -121,6 +165,35 @@
         android:id="@+id/tableRow5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/tipCustomTextView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/tip"
+             android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/tipCustomEditView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/zeroDotZero" />
+
+         <TextView
+             android:id="@+id/totalCustomTextView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/tip"
+             android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/totalCustomEditView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/zeroDotZero" />
+
     </TableRow>
 
 </TableLayout>
