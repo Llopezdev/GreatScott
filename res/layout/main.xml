@@ -23,7 +23,7 @@
             android:textColor="#000" />
         
         <EditText
-            android:id="@+id/billEditView"
+            android:id="@+id/billEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_span="3"
@@ -85,7 +85,7 @@
             android:textColor="#000" />
 
         <EditText
-            android:id="@+id/tipTenEditView"
+            android:id="@+id/tipTenEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -97,7 +97,7 @@
             android:layout_weight="1"/>
 
         <EditText
-            android:id="@+id/tipFifteenEditView"
+            android:id="@+id/tipFifteenEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:focusable="false"
@@ -109,7 +109,7 @@
             android:layout_weight="1"/>
 
         <EditText
-            android:id="@+id/tipTwentyEditView"
+            android:id="@+id/tipTwentyEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:focusable="false"
@@ -139,7 +139,7 @@
              android:textColor="#000" />
 
         <EditText
-            android:id="@+id/totalTenEditView"
+            android:id="@+id/totalTenEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:focusable="false"
@@ -151,7 +151,7 @@
             android:layout_weight="1"/>
 
         <EditText
-            android:id="@+id/totalFifteenEditView"
+            android:id="@+id/totalFifteenEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:focusable="false"
@@ -163,7 +163,7 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/totalTwentyEditView"
+            android:id="@+id/totalTwentyEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:focusable="false"
@@ -232,7 +232,7 @@
              android:textColor="#000" />
 
         <EditText
-            android:id="@+id/tipCustomEditView"
+            android:id="@+id/tipCustomEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -254,7 +254,7 @@
              android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/totalCustomEditView"
+            android:id="@+id/totalCustomEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:focusable="false"

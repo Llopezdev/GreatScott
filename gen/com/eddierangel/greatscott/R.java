@@ -25,7 +25,7 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f08001b;
-        public static final int billEditView=0x7f080003;
+        public static final int billEditText=0x7f080003;
         public static final int billTextView=0x7f080002;
         public static final int customSeekBar=0x7f080014;
         public static final int customTipTextView=0x7f080015;
@@ -39,18 +39,18 @@ public final class R {
         public static final int tableRow4=0x7f080012;
         public static final int tableRow5=0x7f080016;
         public static final int tenTextView=0x7f080005;
-        public static final int tipCustomEditView=0x7f080018;
+        public static final int tipCustomEditText=0x7f080018;
         public static final int tipCustomTextView=0x7f080017;
-        public static final int tipFifteenEditView=0x7f08000b;
-        public static final int tipTenEditView=0x7f08000a;
+        public static final int tipFifteenEditText=0x7f08000b;
+        public static final int tipTenEditText=0x7f08000a;
         public static final int tipTextView=0x7f080009;
-        public static final int tipTwentyEditView=0x7f08000c;
-        public static final int totalCustomEditView=0x7f08001a;
+        public static final int tipTwentyEditText=0x7f08000c;
+        public static final int totalCustomEditText=0x7f08001a;
         public static final int totalCustomTextView=0x7f080019;
-        public static final int totalFifteenEditView=0x7f080010;
-        public static final int totalTenEditView=0x7f08000f;
+        public static final int totalFifteenEditText=0x7f080010;
+        public static final int totalTenEditText=0x7f08000f;
         public static final int totalTextView=0x7f08000e;
-        public static final int totalTwentyEditView=0x7f080011;
+        public static final int totalTwentyEditText=0x7f080011;
         public static final int twentyTextView=0x7f080007;
     }
     public static final class layout {
