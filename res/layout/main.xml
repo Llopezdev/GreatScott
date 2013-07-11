@@ -91,6 +91,7 @@
             android:layout_gravity="center"
             android:focusable="false"
             android:longClickable="false"
+            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp" 
             android:layout_weight="1"/>
@@ -102,6 +103,7 @@
             android:focusable="false"
             android:gravity="center"
             android:longClickable="false"
+            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp" 
             android:layout_weight="1"/>
@@ -113,6 +115,7 @@
             android:focusable="false"
             android:gravity="center"
             android:longClickable="false"
+            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp" 
             android:layout_weight="1"
@@ -142,6 +145,7 @@
             android:focusable="false"
             android:gravity="center"
             android:longClickable="false"
+            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp" 
             android:layout_weight="1"/>
@@ -153,6 +157,7 @@
             android:focusable="false"
             android:gravity="center"
             android:longClickable="false"
+            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp"
             android:layout_weight="1" />
@@ -164,6 +169,7 @@
             android:focusable="false"
             android:gravity="center"
             android:longClickable="false"
+            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp" 
             android:layout_weight="1"/>
@@ -232,6 +238,7 @@
             android:layout_gravity="center"
             android:focusable="false"
             android:longClickable="false"
+            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp" 
             android:layout_weight="1"/>
@@ -253,6 +260,7 @@
             android:focusable="false"
             android:gravity="center"
             android:longClickable="false"
+            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp" 
             android:layout_weight="1"/>
