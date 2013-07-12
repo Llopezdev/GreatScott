@@ -58,6 +58,7 @@ public class TipCalculator extends Activity {
 		totalCustomEditText = (EditText) findViewById(R.id.totalCustomEditText);
 		
 		billEditText = (EditText) findViewById(R.id.billEditText);
+		billEditText.addTextChangedListener(billEditTextWatcher);
 		SeekBar customSeekBar = (SeekBar) findViewById(R.id.customSeekBar);		
 		
 		customSeekBar.setOnSeekBarChangeListener(customSeekBarChangeListener);		
@@ -166,7 +167,6 @@ public class TipCalculator extends Activity {
 			
 			updateStandard();
 			updateCustom();
-			
 			
 		}
 		
