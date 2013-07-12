@@ -71,6 +71,14 @@ public class TipCalculator extends Activity {
 		return true;
 	}
 	
+	@Override
+	protected void onSaveInstanceState(Bundle outState)
+	{
+		super.onSaveInstanceState(outState);
+		outState.putDouble(BILL_TOTAL, currentBillTotal);
+		outState.putInt(CUSTOM_PERCENT, currentCustomPercent);
+	}
+	
 	private void updateStandard()
 	{
 		double tenPercentTip = currentBillTotal * 0.1;
