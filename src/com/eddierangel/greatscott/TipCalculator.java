@@ -58,9 +58,7 @@ public class TipCalculator extends Activity {
 		billEditText = (EditText) findViewById(R.id.billEditText);
 		SeekBar customSeekBar = (SeekBar) findViewById(R.id.customSeekBar);		
 		
-		customSeekBar.setOnSeekBarChangeListener(customSeekBarChangeListener);
-		
-		
+		customSeekBar.setOnSeekBarChangeListener(customSeekBarChangeListener);		
 			
 	}
 
@@ -113,7 +111,28 @@ public class TipCalculator extends Activity {
 	}
 	
 	//TODO
-	private OnSeekBarChangeListener customSeekBarChangeListener;
+	private OnSeekBarChangeListener customSeekBarChangeListener = new OnSeekBarChangeListener()
+	{
+		@Override
+		public void onProgressChanged(SeekBar seekBar, int progress, boolean fromuser)
+		{
+			currentCustomPercent = seekBar.getProgress();
+			updateCustom();
+			
+		}
+		
+		@Override
+		public void onStartTrackingTouch(SeekBar seekBar)
+		{
+			//
+		}
+		
+		@Override
+		public void onStopTrackingTouch(SeekBar seekBar)
+		{
+			//
+		}
+	};
 
 	
 
