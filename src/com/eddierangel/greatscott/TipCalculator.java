@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
@@ -59,8 +60,8 @@ public class TipCalculator extends Activity {
 		
 		billEditText = (EditText) findViewById(R.id.billEditText);
 		billEditText.addTextChangedListener(billEditTextWatcher);
-		SeekBar customSeekBar = (SeekBar) findViewById(R.id.customSeekBar);		
 		
+		SeekBar customSeekBar = (SeekBar) findViewById(R.id.customSeekBar);				
 		customSeekBar.setOnSeekBarChangeListener(customSeekBarChangeListener);		
 			
 	}
@@ -171,6 +172,11 @@ public class TipCalculator extends Activity {
 		}
 		
 	};
+	
+	public void billEditTextOnClick(View view)
+	{
+		billEditText.setText("");
+	}
 
 	
 

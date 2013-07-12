@@ -29,6 +29,7 @@
             android:layout_span="3"
             android:inputType="numberDecimal"
             android:text="@string/zeroDotZero"
+            android:onClick="billEditTextOnClick"
             android:layout_weight="1" />
 
     </TableRow>
