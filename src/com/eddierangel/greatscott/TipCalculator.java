@@ -71,6 +71,39 @@ public class TipCalculator extends Activity {
 		return true;
 	}
 	
+	private void updateStandard()
+	{
+		double tenPercentTip = currentBillTotal * 0.1;
+		double tenPercentTotal = currentBillTotal * tenPercentTip;
+		
+		tipTenEditText.setText(String.format("%.02f", tenPercentTip));		
+		totalTenEditText.setText(String.format("%.02f", tenPercentTotal));
+		
+		double fifteenPercentTip = currentBillTotal * 0.15;
+		double fifteenPercentTotal = currentBillTotal * fifteenPercentTip;
+		
+		tipFifteenEditText.setText(String.format("%.02f", fifteenPercentTip));
+		totalFifteenEditText.setText(String.format("%.02f",fifteenPercentTotal));
+		
+		double twentyPercentTip = currentBillTotal * 0.20;
+		double twentyPercentTotal = currentBillTotal * twentyPercentTip;
+		
+		tipTwentyEditText.setText(String.format("%.02f", twentyPercentTip));
+		totalTwentyEditText.setText(String.format("%.02f",twentyPercentTotal));		
+		
+	}
+	
+	private void updateCustom()
+	{
+		customTipTextView.setText(currentCustomPercent + "%");
+		double customTipAmount = currentBillTotal * currentCustomPercent * 0.01;		
+		double customTotalAmount = currentBillTotal + customTipAmount;
+		
+		tipCustomEditText.setText(String.format("%.02f", customTipAmount));
+		totalCustomEditText.setText(String.format("%.02f", customTotalAmount));
+		
+	}
+	
 	//TODO
 	private OnSeekBarChangeListener customSeekBarChangeListener;
 
