@@ -88,15 +88,15 @@
         <EditText
             android:id="@+id/tipTenEditText"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:focusable="false"
-            android:longClickable="false"
+            android:layout_height="wrap_content"                 
             android:cursorVisible="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:longClickable="false"
             android:text="@string/zeroDotZero"
             android:textSize="14sp" 
-            android:layout_weight="1"
-            android:inputType="numberDecimal"/>
+            android:layout_weight="1"/>
 
         <EditText
             android:id="@+id/tipFifteenEditText"
@@ -146,42 +146,40 @@
             android:id="@+id/totalTenEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:cursorVisible="false"
             android:focusable="false"
             android:gravity="center"
+            android:inputType="numberDecimal"
             android:longClickable="false"
-            android:cursorVisible="false"
             android:text="@string/zeroDotZero"
-            android:textSize="14sp" 
-            android:layout_weight="1"
-            android:inputType="numberDecimal"/>
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/totalFifteenEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:cursorVisible="false"
             android:focusable="false"
             android:gravity="center"
-            android:longClickable="false"
-            android:cursorVisible="false"
-            android:text="@string/zeroDotZero"
-            android:textSize="14sp"
-            android:layout_weight="1" 
             android:inputType="numberDecimal"
-            />
+            android:longClickable="false"
+            android:text="@string/zeroDotZero"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/totalTwentyEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:cursorVisible="false"
             android:focusable="false"
             android:gravity="center"
-            android:longClickable="false"
-            android:cursorVisible="false"
-            android:text="@string/zeroDotZero"
-            android:textSize="14sp" 
-            android:layout_weight="1"
             android:inputType="numberDecimal"
-            />
+            android:longClickable="false"
+            android:text="@string/zeroDotZero"
+            android:textSize="16sp" />
         
     </TableRow>
 
