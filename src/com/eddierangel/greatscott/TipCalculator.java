@@ -84,19 +84,19 @@ public class TipCalculator extends Activity {
 	private void updateStandard()
 	{
 		double tenPercentTip = currentBillTotal * 0.1;
-		double tenPercentTotal = currentBillTotal * tenPercentTip;
+		double tenPercentTotal = currentBillTotal + tenPercentTip;
 		
 		tipTenEditText.setText(String.format("%.02f", tenPercentTip));		
 		totalTenEditText.setText(String.format("%.02f", tenPercentTotal));
 		
 		double fifteenPercentTip = currentBillTotal * 0.15;
-		double fifteenPercentTotal = currentBillTotal * fifteenPercentTip;
+		double fifteenPercentTotal = currentBillTotal + fifteenPercentTip;
 		
 		tipFifteenEditText.setText(String.format("%.02f", fifteenPercentTip));
 		totalFifteenEditText.setText(String.format("%.02f",fifteenPercentTotal));
 		
 		double twentyPercentTip = currentBillTotal * 0.20;
-		double twentyPercentTotal = currentBillTotal * twentyPercentTip;
+		double twentyPercentTotal = currentBillTotal + twentyPercentTip;
 		
 		tipTwentyEditText.setText(String.format("%.02f", twentyPercentTip));
 		totalTwentyEditText.setText(String.format("%.02f",twentyPercentTotal));		
